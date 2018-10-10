@@ -1,8 +1,7 @@
 #Author: Dominic
-#Script: tabtocsv.sh
-#Desc: substitute the tabs in the files with commas
-#saves the output to a .csv files
-#Arguements: 1-> tab delimited files.
+#Script: csvtospace.sh
+#Desc: Takes a comma separated valued file and converts it to a space delimited file.
+#Arguements: 1-> csv file.
 #Date: Oct 2018
 
 echo "Creating a space separated version of $1 ..."
