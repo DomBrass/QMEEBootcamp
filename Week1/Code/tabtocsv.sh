@@ -5,7 +5,7 @@
 #Arguements: 1-> tab delimited files.
 #Date: Oct 2018
 
-echo "Creating a comma celimited version of $1 ..."
+echo "Creating a comma delimited version of $1 ..."
 cat $1 | tr -s "\t" "," >> $1.csv
 echo "Done!"
 exit

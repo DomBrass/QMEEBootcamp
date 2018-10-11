@@ -1,3 +1,4 @@
+#!/bin/bash
 #Author: Dominic
 #Script: csvtospace.sh
 #Desc: Takes a comma separated valued file and converts it to a space delimited file.
