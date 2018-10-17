@@ -1,3 +1,12 @@
+#!usr/bin/env python3
+#
+#Author: Dominic Brass
+#Script: scope.py
+#Arguements: none
+#Date: Oct 2018
+
+"""Script that demonstrates the difference between local and global variables."""
+
 ## Try this first
 
 _a_global = 10

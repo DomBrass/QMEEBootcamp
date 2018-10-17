@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+#
+#Author: Dominic Brass
+#Script: basic_io.py
+#Desc: Simple script that reads and writes csvs.
+#Arguements: none
+#Date: Oct 2018
+
 #####################
 # FILE INPUT
 #####################

@@ -1,3 +1,12 @@
+#!/usr/bin/env python3
+#
+#Author: Dominic Brass
+#Script: cfexcercises1.py
+#Arguements: none
+#Date: Oct 2018
+
+"""Some loops demonstrating control flow."""
+
 for i in range(3,17):
     print('hello')
 

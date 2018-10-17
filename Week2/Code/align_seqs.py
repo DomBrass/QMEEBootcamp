@@ -1,8 +1,15 @@
+#!/usr/bin/python
+
+"""Aligns sequences to find maximal matchings."""
+
+__appname__ = '[align_seqs.py]'
+__author__ = 'Dominic Brass'
+
 import csv
 import copy
 
 seq_input = open('../Data/Seq_example.csv', 'r')
-seq_output = open('../Data/Seq_out.csv', 'w')
+seq_output = open('../Results/Seq_out.csv', 'w')
 # These are the two sequences to match
 
 csvread = csv.reader(seq_input)

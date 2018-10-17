@@ -1,12 +1,14 @@
-#!/usr/bin/env python3
+#!usr/bin/env python3
+#
+#Author: Dominic Brass
+#Script: boilerplate.py
+#Arguements: none
+#Date: Oct 2018
 
-"""Description of this program or application.
-   You may use several lines"""
+"""A boilerplate for python scripts."""
 
-__appname__ = '[application name here]'
-__author__ = 'Your Name (your@email.address)'
-__version__ = '0.0.1'
-__license__ = "License for this code/program"
+__appname__ = '[boilerplate.py]'
+__author__ = 'Dominic Brass'
 
 ## imports ##
 import sys # module to interface our program with the operating system

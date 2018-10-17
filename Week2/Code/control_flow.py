@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+#
+#Author: Dominic Brass
+#Script: control_flow.py
+#Arguements: none
+#Date: Oct 2018
 
 """Some functions exemplifing the use of control statements"""
 

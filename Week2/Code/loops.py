@@ -1,3 +1,12 @@
+#!/usr/bin/env python3
+#
+#Author: Dominic Brass
+#Script: loops.py
+#Arguements: none
+#Date: Oct 2018
+
+"""Various loops."""
+
 for i in range(5):
     print(i)
 

@@ -1,3 +1,10 @@
+#!/usr/bin/env python3
+
+"""Creates dictionary from list of taxa."""
+
+__appname__ = '[dictionary.py]'
+__author__ = 'Dominic Brass'
+
 taxa = [ ('Myotis lucifugus','Chiroptera'),
          ('Gerbillus henleyi','Rodentia',),
          ('Peromyscus crinitus', 'Rodentia'),

@@ -1,3 +1,12 @@
+#!/usr/bin/env python3
+#
+#Author: Dominic Brass
+#Script: oaks.py
+#Arguements: none
+#Date: Oct 2018
+
+"""Demonstrations of list comprehensions."""
+
 taxa = [ 'Quercus robur',
         'Fraxinus excelsior',
         'Pinus sylvestris',

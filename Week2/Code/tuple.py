@@ -1,3 +1,10 @@
+#!/usr/bin/env python3
+
+"""Seperates tuple of tuples printing each on a seperate lines."""
+
+__appname__ = '[tuple.py]'
+__author__ = 'Dominic Brass'
+
 birds = ( ('Passerculus sandwichensis','Savannah sparrow',18.7),
           ('Delichon urbica','House martin',19),
           ('Junco phaeonotus','Yellow-eyed junco',19.5),
@@ -15,4 +22,5 @@ birds = ( ('Passerculus sandwichensis','Savannah sparrow',18.7),
 # SAYS WHAT THE SCRIPT DOES AND WHO THE AUTHOR IS
 
 for a, b, c in birds:
+
   print(a, b, c)

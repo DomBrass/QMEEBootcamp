@@ -1,3 +1,10 @@
+#!/usr/bin/env python3
+
+"""Uses list comprehensions to manipulate data."""
+
+__appname__ = '[lc2.py]'
+__author__ = 'Dominic Brass'
+
 # Average UK Rainfall (mm) for 1910 by month
 # http://www.metoffice.gov.uk/climate/uk/datasets
 rainfall = (('JAN',111.4),

@@ -2,10 +2,8 @@
 
 """Seperates triple into component lists"""
 
-__appname__ = '[application name here]'
-__author__ = 'Your Name (your@email.address)'
-__version__ = '0.0.1'
-__license__ = "License for this code/program"
+__appname__ = '[lc1.py]'
+__author__ = 'Dominic Brass'
 
 ## imports ##
 import sys # module to interface our program with the operating system

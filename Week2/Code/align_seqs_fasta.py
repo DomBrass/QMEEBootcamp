@@ -1,21 +1,41 @@
+#!/usr/bin/python
+
+"""Aligns two sequences to find maximal matchings for input sequences."""
+
+__appname__ = '[align_seqs_fasta.py]'
+__author__ = 'Dominic Brass'
+
 import csv
 import copy
 import itertools
+import sys
 
-with open('../Data/fasta/407228326.fasta') as f:
-    seq1 = [line.rstrip('\n') for line in f]
+if len(sys.argv) == 3:
+    with open(sys.argv[1]) as f:
+        next(f) # Skip header line.
+        seq1 = [line.rstrip('\n') for line in f]
+else:
+    with open("../Data/fasta/407228326.fasta") as f:
+        next(f) # Skip header line.
+        seq1 = [line.rstrip('\n') for line in f]
 
 seq1 = list(itertools.chain.from_iterable(seq1))
 seq1 = ''.join(map(str, seq1))
 
-with open('../Data/fasta/407228412.fasta') as f:
-    seq2 = [line.rstrip('\n') for line in f]
+if len(sys.argv) == 3:
+    with open(sys.argv[2]) as f:
+        next(f) # Skip header line.
+        seq2 = [line.rstrip('\n') for line in f]
+else:
+    with open("../Data/fasta/407228412.fasta") as f:
+        next(f) # Skip header line.
+        seq2 = [line.rstrip('\n') for line in f]
 
 seq2 = list(itertools.chain.from_iterable(seq2))
 seq2 = ''.join(map(str, seq2))
 
 
-seq_output = open('../Data/Seq_out_fasta.csv', 'w')
+seq_output = open('../Results/Seq_out_fasta.csv', 'w')
 
 print(seq1)
 
