@@ -1,14 +1,15 @@
 load("../Data/KeyWestAnnualMeanTemperature.RData")
 
-p_obs <- cor(ats$Year, ats$Temp)
+roe_obs <- cor(ats$Temp[-100],ats$Temp[-1])
 
-p_val <- rep(NA, 10000)
+roe_val <- rep(NA, 10000)
 
 for(i in 1:10000){
   Temp_lag <- sample(ats$Temp, 100)
-  p_val[i] <- cor(ats$Temp, Temp_lag)
+  roe_val[i] <- cor(ats$Temp, Temp_lag)
 }
 
-plot(density(p_val))
+plot(density(roe_val), xlab = "Value of correlation coefficient.", ylab = " Density", main = "Density Kernel for Auto-Correlation of Temperature Data")
+abline(v = roe_obs, col = "red")
 
-sum(p_val > p_obs)/length(p_val)
+sum(roe_val > roe_obs)/length(roe_val)
