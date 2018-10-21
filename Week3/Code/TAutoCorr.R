@@ -6,7 +6,7 @@ roe_val <- rep(NA, 10000)
 
 for(i in 1:10000){
   Temp_lag <- sample(ats$Temp, 100)
-  roe_val[i] <- cor(ats$Temp, Temp_lag)
+  roe_val[i] <- cor(Temp_lag[-100], Temp_lag[-1])
 }
 
 plot(density(roe_val), xlab = "Value of correlation coefficient.", ylab = " Density", main = "Density Kernel for Auto-Correlation of Temperature Data")

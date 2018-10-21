@@ -1,3 +1,5 @@
+#Illustrates how break works.
+
 i <- 0
   while(i < Inf){
     if (i == 20){

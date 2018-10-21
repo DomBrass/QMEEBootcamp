@@ -1,4 +1,4 @@
-## applyy: applying the same function to rows/columns of a matrix
+## apply: applying the same function to rows/columns of a matrix
 
 ## Build a random matrix
 M <- matrix(rnorm(100), 10, 10)

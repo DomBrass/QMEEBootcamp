@@ -1,3 +1,5 @@
+##Runs a simulation involving sampling.
+
 x <- rnorm(50)
 doit <-function(x){
     x <- sample(x, replace = TRUE)

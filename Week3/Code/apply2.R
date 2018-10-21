@@ -1,3 +1,5 @@
+#Further apply examples.
+
 SomeOperation <- function(v){
   if (sum(v) > 0){
     return (v * 100)
